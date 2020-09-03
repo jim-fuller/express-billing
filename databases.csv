@@ -1,0 +1,393 @@
+Server,Level,name,Fully Qualified Name,Ignore,Merged Description,Description,Status,In Use,Business Unit,App Link,Redline DA Access Granted
+GSFS-AU-SQL-P01,Primary,ASPState,GSFS-AU-SQL-P01.ASPState,,SCS Application,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,DBA_Repository,GSFS-AU-SQL-P01.DBA_Repository,,DBA purpose,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,gsfs_applications,GSFS-AU-SQL-P01.gsfs_applications,,GSFS Group Application,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,GSFS_Trans,GSFS-AU-SQL-P01.GSFS_Trans,,GSFS Group Application,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,master,GSFS-AU-SQL-P01.master,Yes,,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,model,GSFS-AU-SQL-P01.model,Yes,,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,msdb,GSFS-AU-SQL-P01.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,ReportServer,GSFS-AU-SQL-P01.ReportServer,,SCS Reports,MS Report Server typically housing datasources tied to the SCS Application,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,ReportServerTempDB,GSFS-AU-SQL-P01.ReportServerTempDB,Yes,SCS Reports,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,scs_auto_document_gsfs,GSFS-AU-SQL-P01.scs_auto_document_gsfs,,SCS Application,SCS sub application database used to store contract scanned images,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,scs_auto_gsfs,GSFS-AU-SQL-P01.scs_auto_gsfs,,SCS Application,Full Lifecycle F&I enterprise application for managing and integrating vehicle service contracts and claims.,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,scs_auto_master,GSFS-AU-SQL-P01.scs_auto_master,,SCS Application,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,scs_auto_temp,GSFS-AU-SQL-P01.scs_auto_temp,Yes,SCS Application,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,scs_stage,GSFS-AU-SQL-P01.scs_stage,,SCS Application,Staging location for Data Warehouse,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,scs_utility,GSFS-AU-SQL-P01.scs_utility,,SCS Application,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,scs_warehouse_gsfs,GSFS-AU-SQL-P01.scs_warehouse_gsfs,,SCS Application,Sofware vendors data warehouse. GSFS does not use this. GSFS Provides their own data warehouse.,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,scs_warehouse_master,GSFS-AU-SQL-P01.scs_warehouse_master,,SCS Application,Sofware vendors data warehouse. GSFS does not use this. GSFS Provides their own data warehouse.,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,SSA,GSFS-AU-SQL-P01.SSA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,SSISDB,GSFS-AU-SQL-P01.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-AU-SQL-P01,Primary,tempdb,GSFS-AU-SQL-P01.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-AU-SQL-P02,Primary,corporatewebsite91sp1,GSFS-AU-SQL-P02.corporatewebsite91sp1,,GSFS Group Application,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,CorporateWebsite,GSFS-AU-SQL-Q01.CorporateWebsite,,,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,DBA_Repository,GSFS-AU-SQL-P02.DBA_Repository,,DBA purpose,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,Dev_I3_IC,GSFS-AU-SQL-P02.Dev_I3_IC,,Call Center,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,GSFSSecurity,GSFS-AU-SQL-P02.GSFSSecurity,,SSIS Packages,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,I3_IC,GSFS-AU-SQL-P02.I3_IC,,Call Center,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,master,GSFS-AU-SQL-P02.master,Yes,,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,model,GSFS-AU-SQL-P02.model,Yes,,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,msdb,GSFS-AU-SQL-P02.msdb,Yes,,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,P_EDFSecurity,GSFS-AU-SQL-P02.P_EDFSecurity,,SSIS Packages,,NULL,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,CorporateWebsite,GSFS-FC-SQL-Q01.CorporateWebsite,,,,ONLINE,,,,Yes
+GSFS-AU-SQL-P02,Primary,SSA,GSFS-AU-SQL-P02.SSA,,DBA purpose,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,SSISDB,GSFS-AU-SQL-P02.SSISDB,,SSIS Packages,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,tempdb,GSFS-AU-SQL-P02.tempdb,Yes,,,NULL,,,,Yes
+GSFS-SQLDEV01,Dev,CorporateWebsite,GSFS-SQLDEV01.CorporateWebsite,,,,ONLINE,,,,Yes
+GSFS-AU-SQL-P04,Primary,DBA,GSFS-AU-SQL-P04.DBA,,DBA purpose,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,DBA_Repository,GSFS-AU-SQL-P04.DBA_Repository,,DBA purpose,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,GSFS_Archive,GSFS-AU-SQL-P04.GSFS_Archive,,Archive database for SCS,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,GSFS_DW,GSFS-AU-SQL-P04.GSFS_DW,,Data Warehouse & All internal applications,,NULL,,,,Yes
+sqlqascs,Primary,CorporateWebsite,sqlqascs.CorporateWebsite,,,,NULL,,,,Yes
+GSFS-AU-SQL-Q02,Primary,CorporateWebsite91,GSFS-AU-SQL-Q02.CorporateWebsite91,,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,CorporateWebsite91,GSFS-FC-SQL-Q02.CorporateWebsite91,,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,CorporateWebsiteDev,GSFS-SQLDEV01.CorporateWebsiteDev,,,,ONLINE,,,,Yes
+GSFS-AU-SQL-P04,Primary,GSFS_Stage,GSFS-AU-SQL-P04.GSFS_Stage,,SSRS Reports,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,master,GSFS-AU-SQL-P04.master,Yes,,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,model,GSFS-AU-SQL-P04.model,Yes,,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,msdb,GSFS-AU-SQL-P04.msdb,Yes,,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,ReportServer,GSFS-AU-SQL-P04.ReportServer,,SCS Reports,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,ReportServerTempDB,GSFS-AU-SQL-P04.ReportServerTempDB,Yes,SCS Reports,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,CustomerPortal,GSFS-AU-SQL-P02.CustomerPortal,,,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,SSA,GSFS-AU-SQL-P04.SSA,,DBA purpose,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,SSISDB,GSFS-AU-SQL-P04.SSISDB,,SSIS Packages,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,tempdb,GSFS-AU-SQL-P04.tempdb,Yes,,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,ASPState,GSFS-AU-SQL-Q01.ASPState,,SCS Application,,NULL,,,,Yes
+GSFS-AU-SQL-Q02,Primary,CustomerPortal,GSFS-AU-SQL-Q02.CustomerPortal,,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,CustomerPortal,GSFS-FC-SQL-Q02.CustomerPortal,,,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q01,Primary,gsfs_applications,GSFS-AU-SQL-Q01.gsfs_applications,,GSFS Group Application,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,GSFS_Trans,GSFS-AU-SQL-Q01.GSFS_Trans,,GSFS Group Application,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,master,GSFS-AU-SQL-Q01.master,Yes,,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,model,GSFS-AU-SQL-Q01.model,Yes,,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,msdb,GSFS-AU-SQL-Q01.msdb,Yes,,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,ReportServer,GSFS-AU-SQL-Q01.ReportServer,,SCS Reports,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,ReportServerTempDB,GSFS-AU-SQL-Q01.ReportServerTempDB,,SCS Reports,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,scs_auto_document_gsfs,GSFS-AU-SQL-Q01.scs_auto_document_gsfs,,SCS Application,SCS sub application database used to store contract scanned images,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,scs_auto_gsfs,GSFS-AU-SQL-Q01.scs_auto_gsfs,,SCS Application,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,scs_auto_master,GSFS-AU-SQL-Q01.scs_auto_master,,SCS Application,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,scs_auto_temp,GSFS-AU-SQL-Q01.scs_auto_temp,,SCS Application,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,scs_stage,GSFS-AU-SQL-Q01.scs_stage,,SCS Application,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,scs_warehouse_gsfs,GSFS-AU-SQL-Q01.scs_warehouse_gsfs,,SCS Application,Sofware vendors data warehouse. GSFS does not use this. GSFS Provides their own data warehouse.,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,scs_warehouse_master,GSFS-AU-SQL-Q01.scs_warehouse_master,,SCS Application,Sofware vendors data warehouse. GSFS does not use this. GSFS Provides their own data warehouse.,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,SSISDB,GSFS-AU-SQL-Q01.SSISDB,,SSIS Packages,,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,tempdb,GSFS-AU-SQL-Q01.tempdb,Yes,,,NULL,,,,Yes
+GSFS-SQLAOC02,Secondary,CustomerPortal,GSFS-SQLAOC02.CustomerPortal,,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,CustomerPortal,GSFS-SQLDEV02.CustomerPortal,,,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,DBA,GSFS-AU-SQL-Q02.DBA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,GSFS_IPS,GSFS-AU-SQL-Q02.GSFS_IPS,,IPS,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,GSFSSecurity,GSFS-AU-SQL-Q02.GSFSSecurity,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,I3_IC,GSFS-AU-SQL-Q02.I3_IC,,Call Center,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,master,GSFS-AU-SQL-Q02.master,Yes,,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,model,GSFS-AU-SQL-Q02.model,Yes,,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,msdb,GSFS-AU-SQL-Q02.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,DBA_new,GSFS-SQLAOC01.DBA_new,,,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,P_EDFSecurity,GSFS-AU-SQL-Q02.P_EDFSecurity,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,SSA,GSFS-AU-SQL-Q02.SSA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,SSISDB,GSFS-AU-SQL-Q02.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,tempdb,GSFS-AU-SQL-Q02.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,DBA_new,GSFS-SQLDEV01.DBA_new,,,,ONLINE,,,,Yes
+GSFS-DBSQL-Q01,Primary,ASPState,GSFS-DBSQL-Q01.ASPState,,SCS Application,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,DBA,GSFS-DBSQL-Q01.DBA,,DBA purpose,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,gsfs_applications,GSFS-DBSQL-Q01.gsfs_applications,,GSFS Group Application,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,gsfs_Trans,GSFS-DBSQL-Q01.gsfs_Trans,,GSFS Group Application,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,master,GSFS-DBSQL-Q01.master,Yes,,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,model,GSFS-DBSQL-Q01.model,Yes,,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,msdb,GSFS-DBSQL-Q01.msdb,Yes,,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,ReportServer,GSFS-DBSQL-Q01.ReportServer,,SCS Reports,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,ReportServerTempDB,GSFS-DBSQL-Q01.ReportServerTempDB,,SCS Reports,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,scs_auto_document_gsfs,GSFS-DBSQL-Q01.scs_auto_document_gsfs,,SCS Application,SCS sub application database used to store contract scanned images,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,scs_auto_gsfs,GSFS-DBSQL-Q01.scs_auto_gsfs,,SCS Application,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,scs_auto_master,GSFS-DBSQL-Q01.scs_auto_master,,SCS Application,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,scs_auto_Temp,GSFS-DBSQL-Q01.scs_auto_Temp,,SCS Application,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,scs_stage,GSFS-DBSQL-Q01.scs_stage,,SCS Application,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,scs_utility,GSFS-DBSQL-Q01.scs_utility,,SCS Application,,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,scs_warehouse_gsfs,GSFS-DBSQL-Q01.scs_warehouse_gsfs,,SCS Application,Sofware vendors data warehouse. GSFS does not use this. GSFS Provides their own data warehouse.,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,scs_warehouse_master,GSFS-DBSQL-Q01.scs_warehouse_master,,SCS Application,Sofware vendors data warehouse. GSFS does not use this. GSFS Provides their own data warehouse.,NULL,,,,Yes
+GSFS-DBSQL-Q01,Primary,tempdb,GSFS-DBSQL-Q01.tempdb,Yes,,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,AppSecurity,GSFS-FC-SQL-P03.AppSecurity,,"OMEGA, Incentives,Customer Portal,Executive Dashboard, Reinsurance & All internal applications",,NULL,,,,Yes
+GSFS-AU-SQL-Q01,Primary,DBA_Rep,GSFS-AU-SQL-Q01.DBA_Rep,,,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,GSFS_App,GSFS-FC-SQL-P03.GSFS_App,,"OMEGA, Incentives,Customer Portal,Executive Dashboard, Reinsurance & All internal applications",,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,GSFS_ARG,GSFS-FC-SQL-P03.GSFS_ARG,,Report Portal & Executive Dashboard,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,GSFS_DW,GSFS-FC-SQL-P03.GSFS_DW,,Data Warehouse & All internal applications,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,GSFS_IPS,GSFS-FC-SQL-P03.GSFS_IPS,,IPS,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,GSFS_LicMgmt,GSFS-FC-SQL-P03.GSFS_LicMgmt,,Legal,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,GSFS_OMEGA,GSFS-FC-SQL-P03.GSFS_OMEGA,,OMEGA,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,GSFS_Report,GSFS-FC-SQL-P03.GSFS_Report,,SSRS Reports,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,GSFS_Sandbox,GSFS-FC-SQL-P03.GSFS_Sandbox,,SSRS Reports,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,GSFS_Stage,GSFS-FC-SQL-P03.GSFS_Stage,,SSRS Reports,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,iWORKS,GSFS-FC-SQL-P03.iWORKS,,iWORKS,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,master,GSFS-FC-SQL-P03.master,Yes,,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,model,GSFS-FC-SQL-P03.model,Yes,,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,msdb,GSFS-FC-SQL-P03.msdb,Yes,,,NULL,,,,Yes
+sqlqascs,Primary,DBA_Rep,sqlqascs.DBA_Rep,,,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,scs_auto_qa,GSFS-FC-SQL-P03.scs_auto_qa,,Month End,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,scs_auto_qa_prior_month,GSFS-FC-SQL-P03.scs_auto_qa_prior_month,,Month End,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,scs_stage,GSFS-FC-SQL-P03.scs_stage,,SCS Application,Staging location for Data Warehouse,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,SSA,GSFS-FC-SQL-P03.SSA,,DBA purpose,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,tempdb,GSFS-FC-SQL-P03.tempdb,Yes,,,NULL,,,,Yes
+GSFS-FC-SQL-P03,Secondary,WINGS,GSFS-FC-SQL-P03.WINGS,,WINGS,,NULL,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,ASPSTATE,GSFS-FC-SQL-Q01.ASPSTATE,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,DealerDaily,GSFS-SQLDEV01.DealerDaily,,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,DBA,GSFS-FC-SQL-Q01.DBA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,gsfs_applications,GSFS-FC-SQL-Q01.gsfs_applications,,GSFS Group Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,GSFS_Trans,GSFS-FC-SQL-Q01.GSFS_Trans,,GSFS Group Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,master,GSFS-FC-SQL-Q01.master,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,model,GSFS-FC-SQL-Q01.model,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,msdb,GSFS-FC-SQL-Q01.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,ReportServer,GSFS-FC-SQL-Q01.ReportServer,,SCS Reports,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,ReportServerTempDB,GSFS-FC-SQL-Q01.ReportServerTempDB,,SCS Reports,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,scs_auto_document_gsfs,GSFS-FC-SQL-Q01.scs_auto_document_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,scs_auto_gsfs,GSFS-FC-SQL-Q01.scs_auto_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,scs_auto_master,GSFS-FC-SQL-Q01.scs_auto_master,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,scs_auto_temp,GSFS-FC-SQL-Q01.scs_auto_temp,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,scs_stage,GSFS-FC-SQL-Q01.scs_stage,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,scs_warehouse_gsfs,GSFS-FC-SQL-Q01.scs_warehouse_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,scs_warehouse_master,GSFS-FC-SQL-Q01.scs_warehouse_master,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,SSISDB,GSFS-FC-SQL-Q01.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q01,Secondary,tempdb,GSFS-FC-SQL-Q01.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-P03,Secondary,DealerIncentives,GSFS-FC-SQL-P03.DealerIncentives,,,,NULL,,,,Yes
+GSFS-QASQL-02,Primary,DealerIncentives,GSFS-QASQL-02.DealerIncentives,,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,GSFS_IPS,GSFS-FC-SQL-Q02.GSFS_IPS,,IPS,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,GSFSSecurity,GSFS-FC-SQL-Q02.GSFSSecurity,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,I3_IC,GSFS-FC-SQL-Q02.I3_IC,,Call Center,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,master,GSFS-FC-SQL-Q02.master,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,model,GSFS-FC-SQL-Q02.model,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,msdb,GSFS-FC-SQL-Q02.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,DealerIncentives,GSFS-SQLAOC03.DealerIncentives,,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,P_EDFSecurity,GSFS-FC-SQL-Q02.P_EDFSecurity,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,SSA,GSFS-FC-SQL-Q02.SSA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,tempdb,GSFS-FC-SQL-Q02.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,DealerIncentives,GSFS-SQLDEV02.DealerIncentives,,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q03,Primary,DBA,GSFS-FC-SQL-Q03.DBA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q03,Primary,master,GSFS-FC-SQL-Q03.master,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q03,Primary,model,GSFS-FC-SQL-Q03.model,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q03,Primary,msdb,GSFS-FC-SQL-Q03.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q03,Primary,ReportServer,GSFS-FC-SQL-Q03.ReportServer,,SCS Reports,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q03,Primary,ReportServerTempDB,GSFS-FC-SQL-Q03.ReportServerTempDB,,SCS Reports,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q03,Primary,SSISDB,GSFS-FC-SQL-Q03.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q03,Primary,tempdb,GSFS-FC-SQL-Q03.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,AppSecurity,GSFS-QASQL-02.AppSecurity,,"OMEGA, Incentives,Customer Portal,Executive Dashboard, Reinsurance & All internal applications",,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,DBA,GSFS-QASQL-02.DBA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,DealerIncentives_4394eb08-ddc9-4332-83c0-5a967373bcd5,GSFS-SQLDEV02.DealerIncentives_4394eb08-ddc9-4332-83c0-5a967373bcd5,,,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,distribution,GSFS-QASQL-02.distribution,,,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,GSFS_App,GSFS-QASQL-02.GSFS_App,,"OMEGA, Incentives,Customer Portal,Executive Dashboard, Reinsurance & All internal applications",,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,GSFS_ARG,GSFS-QASQL-02.GSFS_ARG,,Report Portal & Executive Dashboard,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,distribution,GSFS-SQLDEV01.distribution,,,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,GSFS_DW,GSFS-QASQL-02.GSFS_DW,,Data Warehouse & All internal applications,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,GSFS_IPS,GSFS-QASQL-02.GSFS_IPS,,IPS,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,GSFS_OMEGA,GSFS-QASQL-02.GSFS_OMEGA,,OMEGA,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,GSFS_Report,GSFS-QASQL-02.GSFS_Report,,SSRS Reports,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,GSFS_Sandbox,GSFS-QASQL-02.GSFS_Sandbox,,SSRS Reports,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,GSFS_Stage,GSFS-QASQL-02.GSFS_Stage,,SSRS Reports,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,master,GSFS-QASQL-02.master,Yes,,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,model,GSFS-QASQL-02.model,Yes,,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,msdb,GSFS-QASQL-02.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS.Omega.Core.Claims.Database,GSFS-SQLDEV02.GSFS.Omega.Core.Claims.Database,,,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,ReportServer,GSFS-QASQL-02.ReportServer,,SCS Reports,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,ReportServerTempDB,GSFS-QASQL-02.ReportServerTempDB,,SCS Reports,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,scs_auto_qa_prior_month,GSFS-QASQL-02.scs_auto_qa_prior_month,,Month End,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,SSISDB,GSFS-QASQL-02.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,tempdb,GSFS-QASQL-02.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,ASPState,GSFS-SQLAOC01.ASPState,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_BI,GSFS-SQLDEV02.GSFS_BI,,,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,DBA_Repository,GSFS-SQLAOC01.DBA_Repository,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,gsfs_applications,GSFS-SQLAOC01.gsfs_applications,,GSFS Group Application,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,GSFS_Trans,GSFS-SQLAOC01.GSFS_Trans,,GSFS Group Application,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,master,GSFS-SQLAOC01.master,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,model,GSFS-SQLAOC01.model,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,msdb,GSFS-SQLAOC01.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,ReportServer,GSFS-SQLAOC01.ReportServer,,SCS Reports,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,ReportServerTempDB,GSFS-SQLAOC01.ReportServerTempDB,,SCS Reports,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,scs_auto_document_gsfs,GSFS-SQLAOC01.scs_auto_document_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,scs_auto_gsfs,GSFS-SQLAOC01.scs_auto_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,scs_auto_master,GSFS-SQLAOC01.scs_auto_master,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,scs_auto_temp,GSFS-SQLAOC01.scs_auto_temp,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,scs_stage,GSFS-SQLAOC01.scs_stage,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,scs_utility,GSFS-SQLAOC01.scs_utility,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,scs_warehouse_gsfs,GSFS-SQLAOC01.scs_warehouse_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,scs_warehouse_master,GSFS-SQLAOC01.scs_warehouse_master,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,SSA,GSFS-SQLAOC01.SSA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,SSISDB,GSFS-SQLAOC01.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-SQLAOC01,Secondary,tempdb,GSFS-SQLAOC01.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,corporatewebsite91sp1,GSFS-SQLAOC02.corporatewebsite91sp1,,GSFS Group Application,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,GSFS_Corp,GSFS-SQLDEV01.GSFS_Corp,,,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,DBA,GSFS-SQLAOC02.DBA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,DBA_Repository,GSFS-SQLAOC02.DBA_Repository,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,Dev_I3_IC,GSFS-SQLAOC02.Dev_I3_IC,,Call Center,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,GSFSSecurity,GSFS-SQLAOC02.GSFSSecurity,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,I3_IC,GSFS-SQLAOC02.I3_IC,,Call Center,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,master,GSFS-SQLAOC02.master,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,model,GSFS-SQLAOC02.model,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,msdb,GSFS-SQLAOC02.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,GSFS_Demo,GSFS-QASQL-02.GSFS_Demo,,,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,P_EDFSecurity,GSFS-SQLAOC02.P_EDFSecurity,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,SSA,GSFS-SQLAOC02.SSA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,SSISDB,GSFS-SQLAOC02.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,tempdb,GSFS-SQLAOC02.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-AU-SQL-P04,Primary,GSFS_DW_RT,GSFS-AU-SQL-P04.GSFS_DW_RT,,,,NULL,,,,Yes
+GSFS-SQLAOC03,Primary,AppSecurity,GSFS-SQLAOC03.AppSecurity,,"OMEGA, Incentives,Customer Portal,Executive Dashboard, Reinsurance & All internal applications",,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,ClaimsTracker_BE_new,GSFS-SQLAOC03.ClaimsTracker_BE_new,,"DB Offline, hope we can drop this. ",,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,DBA,GSFS-SQLAOC03.DBA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,DBA_Repository,GSFS-SQLAOC03.DBA_Repository,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_DW_RT,GSFS-SQLDEV02.GSFS_DW_RT,,,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,DW_Datacollector_new,GSFS-SQLAOC03.DW_Datacollector_new,,"DB Offline, hope we can drop this. ",,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,GridView_new,GSFS-SQLAOC03.GridView_new,,"DB Offline, hope we can drop this. ",,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,GSFS_App,GSFS-SQLAOC03.GSFS_App,,"OMEGA, Incentives,Customer Portal,Executive Dashboard, Reinsurance & All internal applications",,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,GSFS_ARG,GSFS-SQLAOC03.GSFS_ARG,,Report Portal & Executive Dashboard,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,GSFS_DW,GSFS-SQLAOC03.GSFS_DW,,Data Warehouse & All internal applications,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,GSFS_IPS,GSFS-SQLAOC03.GSFS_IPS,,IPS,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,GSFS_LicMgmt,GSFS-SQLAOC03.GSFS_LicMgmt,,Legal,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,GSFS_OMEGA,GSFS-SQLAOC03.GSFS_OMEGA,,OMEGA,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,GSFS_Report,GSFS-SQLAOC03.GSFS_Report,,SSRS Reports,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,GSFS_Sandbox,GSFS-SQLAOC03.GSFS_Sandbox,,SSRS Reports,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,GSFS_Stage,GSFS-SQLAOC03.GSFS_Stage,,SSRS Reports,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,iWORKS,GSFS-SQLAOC03.iWORKS,,iWORKS,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,master,GSFS-SQLAOC03.master,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,model,GSFS-SQLAOC03.model,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,msdb,GSFS-SQLAOC03.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-AU-SQL-P04,Primary,GSFS_DW_RT_Old,GSFS-AU-SQL-P04.GSFS_DW_RT_Old,,,,NULL,,,,Yes
+GSFS-SQLAOC03,Primary,scs_auto_qa,GSFS-SQLAOC03.scs_auto_qa,,Month End,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,scs_auto_qa_prior_month,GSFS-SQLAOC03.scs_auto_qa_prior_month,,Month End,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,scs_stage,GSFS-SQLAOC03.scs_stage,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,SSA,GSFS-SQLAOC03.SSA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,SSISDB,GSFS-SQLAOC03.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,tempdb,GSFS-SQLAOC03.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLAOC03,Primary,WINGS,GSFS-SQLAOC03.WINGS,,WINGS,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,ASPState,GSFS-SQLDEV01.ASPState,,SCS Application,,ONLINE,,,,Yes
+GSFS-AU-SQL-P04,Primary,GSFS_DW_Stage,GSFS-AU-SQL-P04.GSFS_DW_Stage,,,,NULL,,,,Yes
+GSFS-AU-SQL-P04,Primary,GSFS_DW_Stage_Old,GSFS-AU-SQL-P04.GSFS_DW_Stage_Old,,,,NULL,,,,Yes
+GSFS-SQLDEV01,Dev,DBA,GSFS-SQLDEV01.DBA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_DWH,GSFS-SQLDEV02.GSFS_DWH,,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,gsfs_gap_claim,GSFS-SQLDEV01.gsfs_gap_claim,,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,Dev_I3_IC,GSFS-SQLDEV01.Dev_I3_IC,,Call Center,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,GSFS_LicMgmt_BKP,GSFS-SQLDEV01.GSFS_LicMgmt_BKP,,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,GSFS_App,GSFS-SQLDEV01.GSFS_App,,"OMEGA, Incentives,Customer Portal,Executive Dashboard, Reinsurance & All internal applications",,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,gsfs_applications,GSFS-SQLDEV01.gsfs_applications,,GSFS Group Application,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_Omega_Incentives,GSFS-SQLDEV02.GSFS_Omega_Incentives,,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,HiringWinnersContent,GSFS-SQLDEV01.HiringWinnersContent,,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,GSFS_LicMgmt,GSFS-SQLDEV01.GSFS_LicMgmt,,Legal,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,Intake,GSFS-SQLDEV01.Intake,,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,GSFS_Stage,GSFS-SQLDEV01.GSFS_Stage,,SSRS Reports,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,GSFS_Trans,GSFS-SQLDEV01.GSFS_Trans,,GSFS Group Application,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,GSFSSecurity,GSFS-SQLDEV01.GSFSSecurity,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,myGSFS,GSFS-AU-SQL-Q02.myGSFS,,,Dealer portal,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,I3_IC,GSFS-SQLDEV01.I3_IC,,Call Center,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,myGSFS,GSFS-FC-SQL-Q02.myGSFS,,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,iWORKS,GSFS-SQLDEV01.iWORKS,,iWORKS,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,master,GSFS-SQLDEV01.master,Yes,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,model,GSFS-SQLDEV01.model,Yes,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,msdb,GSFS-SQLDEV01.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,P_EDFSecurity,GSFS-SQLDEV01.P_EDFSecurity,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,ReportServer,GSFS-SQLDEV01.ReportServer,,SCS Reports,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,ReportServerTempDB,GSFS-SQLDEV01.ReportServerTempDB,,SCS Reports,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,scs_auto_document_gsfs,GSFS-SQLDEV01.scs_auto_document_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,scs_auto_gsfs,GSFS-SQLDEV01.scs_auto_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,scs_auto_master,GSFS-SQLDEV01.scs_auto_master,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,scs_auto_temp,GSFS-SQLDEV01.scs_auto_temp,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,scs_stage,GSFS-SQLDEV01.scs_stage,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,scs_warehouse_gsfs,GSFS-SQLDEV01.scs_warehouse_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,scs_warehouse_master,GSFS-SQLDEV01.scs_warehouse_master,,SCS Application,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,SSISDB,GSFS-SQLDEV01.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-SQLDEV01,Dev,tempdb,GSFS-SQLDEV01.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,AppSecurity,GSFS-SQLDEV02.AppSecurity,,"OMEGA, Incentives,Customer Portal,Executive Dashboard, Reinsurance & All internal applications",,ONLINE,,,,Yes
+GSFS-SQLAOC02,Secondary,myGSFS,GSFS-SQLAOC02.myGSFS,,,,ONLINE,,,,Yes
+GSFS-FC-SQL-P03,Secondary,Octopus,GSFS-FC-SQL-P03.Octopus,,,Dev team CI/CD demo db. Unused,NULL,No,Software Engineering,,Yes
+GSFS-SQLAOC03,Primary,Octopus,GSFS-SQLAOC03.Octopus,,,Dev team CI/CD demo db. Unused,ONLINE,No,Software Engineering,,Yes
+GSFS-SQLDEV02,Dev,Octopus,GSFS-SQLDEV02.Octopus,,,Dev team CI/CD demo db. Unused,ONLINE,No,Software Engineering,,Yes
+GSFS-SQLDEV02,Dev,GSFS_App,GSFS-SQLDEV02.GSFS_App,,"OMEGA, Incentives,Customer Portal,Executive Dashboard, Reinsurance & All internal applications",,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_Archive,GSFS-SQLDEV02.GSFS_Archive,,Archive database for SCS,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_ARG,GSFS-SQLDEV02.GSFS_ARG,,Report Portal & Executive Dashboard,,ONLINE,,,,Yes
+GSFS-AU-SQL-P02,Primary,Protect,GSFS-AU-SQL-P02.Protect,,,,NULL,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_DW,GSFS-SQLDEV02.GSFS_DW,,Data Warehouse & All internal applications,,ONLINE,,,,Yes
+GSFS-QASQL-02,Primary,RedGateMonitor,GSFS-QASQL-02.RedGateMonitor,,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,salesforce backups,GSFS-SQLDEV02.salesforce backups,,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_IPS,GSFS-SQLDEV02.GSFS_IPS,,IPS,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_OMEGA,GSFS-SQLDEV02.GSFS_OMEGA,,OMEGA,,ONLINE,,,,Yes
+GSFS-SQLRPT01,Primary,salesforce backups,GSFS-SQLRPT01.salesforce backups,,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_Report,GSFS-SQLDEV02.GSFS_Report,,SSRS Reports,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_Sandbox,GSFS-SQLDEV02.GSFS_Sandbox,,SSRS Reports,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,GSFS_Stage,GSFS-SQLDEV02.GSFS_Stage,,SSRS Reports,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,master,GSFS-SQLDEV02.master,Yes,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,model,GSFS-SQLDEV02.model,Yes,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,msdb,GSFS-SQLDEV02.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,scs_auto_demo_122016,GSFS-SQLDEV02.scs_auto_demo_122016,,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,ReportServer,GSFS-SQLDEV02.ReportServer,,SCS Reports,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,ReportServerTempDB,GSFS-SQLDEV02.ReportServerTempDB,,SCS Reports,,ONLINE,,,,Yes
+GSFS-AU-SQL-P04,Primary,scs_auto_qa_May_2020,GSFS-AU-SQL-P04.scs_auto_qa_May_2020,,,,NULL,,,,Yes
+GSFS-AU-SQL-P02,Primary,Training,GSFS-AU-SQL-P02.Training,,,,NULL,,,,Yes
+GSFS-SQLDEV02,Dev,scs_auto_qa,GSFS-SQLDEV02.scs_auto_qa,,Month End,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,SSISDB,GSFS-SQLDEV02.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,tempdb,GSFS-SQLDEV02.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-AU-SQL-Q02,Primary,Training,GSFS-AU-SQL-Q02.Training,,,,ONLINE,,,,Yes
+GSFS-SQLRPT01,Primary,DBA_Repository,GSFS-SQLRPT01.DBA_Repository,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLRPT01,Primary,GSFS_Archive,GSFS-SQLRPT01.GSFS_Archive,,Archive database for SCS,,ONLINE,,,,Yes
+GSFS-SQLRPT01,Primary,master,GSFS-SQLRPT01.master,Yes,,,ONLINE,,,,Yes
+GSFS-SQLRPT01,Primary,model,GSFS-SQLRPT01.model,Yes,,,ONLINE,,,,Yes
+GSFS-SQLRPT01,Primary,msdb,GSFS-SQLRPT01.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-SQLRPT01,Primary,ReportServer,GSFS-SQLRPT01.ReportServer,,SCS Reports,,ONLINE,,,,Yes
+GSFS-SQLRPT01,Primary,ReportServerTempDB,GSFS-SQLRPT01.ReportServerTempDB,,SCS Reports,,ONLINE,,,,Yes
+GSFS-FC-SQL-Q02,Secondary,Training,GSFS-FC-SQL-Q02.Training,,,,ONLINE,,,,Yes
+GSFS-SQLRPT01,Primary,SSA,GSFS-SQLRPT01.SSA,,DBA purpose,,ONLINE,,,,Yes
+GSFS-SQLRPT01,Primary,SSISDB,GSFS-SQLRPT01.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-SQLRPT01,Primary,tempdb,GSFS-SQLRPT01.tempdb,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,ASPState,GSFS-FC-SQL-P01.ASPState,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,gsfs_applications,GSFS-FC-SQL-P01.gsfs_applications,,GSFS Group Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,GSFS_Trans,GSFS-FC-SQL-P01.GSFS_Trans,,GSFS Group Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,master,GSFS-FC-SQL-P01.master,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,model,GSFS-FC-SQL-P01.model,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,msdb,GSFS-FC-SQL-P01.msdb,Yes,,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,ReportServer,GSFS-FC-SQL-P01.ReportServer,,SCS Reports,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,ReportServerTempDB,GSFS-FC-SQL-P01.ReportServerTempDB,,SCS Reports,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,scs_auto_document_gsfs,GSFS-FC-SQL-P01.scs_auto_document_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,scs_auto_gsfs,GSFS-FC-SQL-P01.scs_auto_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,scs_auto_master,GSFS-FC-SQL-P01.scs_auto_master,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,scs_auto_temp,GSFS-FC-SQL-P01.scs_auto_temp,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,scs_stage,GSFS-FC-SQL-P01.scs_stage,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,scs_utility,GSFS-FC-SQL-P01.scs_utility,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,scs_warehouse_gsfs,GSFS-FC-SQL-P01.scs_warehouse_gsfs,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,scs_warehouse_master,GSFS-FC-SQL-P01.scs_warehouse_master,,SCS Application,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,SSISDB,GSFS-FC-SQL-P01.SSISDB,,SSIS Packages,,ONLINE,,,,Yes
+GSFS-FC-SQL-P01,Dev,tempdb,GSFS-FC-SQL-P01.tempdb,Yes,,,ONLINE,,,,Yes
+sqlqascs,Primary,ASPState,sqlqascs.ASPState,,SCS Application,,NULL,,,,Yes
+GSFS-SQLAOC02,Secondary,Training,GSFS-SQLAOC02.Training,,,,ONLINE,,,,Yes
+GSFS-SQLDEV02,Dev,Training,GSFS-SQLDEV02.Training,,,,ONLINE,,,,Yes
+sqlqascs,Primary,gsfs_applications,sqlqascs.gsfs_applications,,GSFS Group Application,,NULL,,,,Yes
+sqlqascs,Primary,GSFS_Trans,sqlqascs.GSFS_Trans,,GSFS Group Application,,NULL,,,,Yes
+sqlqascs,Primary,master,sqlqascs.master,Yes,,,NULL,,,,Yes
+sqlqascs,Primary,model,sqlqascs.model,Yes,,,NULL,,,,Yes
+sqlqascs,Primary,msdb,sqlqascs.msdb,Yes,,,NULL,,,,Yes
+sqlqascs,Primary,ReportServer,sqlqascs.ReportServer,,SCS Reports,,NULL,,,,Yes
+sqlqascs,Primary,ReportServerTempDB,sqlqascs.ReportServerTempDB,,SCS Reports,,NULL,,,,Yes
+sqlqascs,Primary,scs_auto_document_gsfs,sqlqascs.scs_auto_document_gsfs,,SCS Application,,NULL,,,,Yes
+sqlqascs,Primary,scs_auto_gsfs,sqlqascs.scs_auto_gsfs,,SCS Application,,NULL,,,,Yes
+sqlqascs,Primary,scs_auto_master,sqlqascs.scs_auto_master,,SCS Application,,NULL,,,,Yes
+sqlqascs,Primary,scs_auto_temp,sqlqascs.scs_auto_temp,,SCS Application,,NULL,,,,Yes
+sqlqascs,Primary,scs_stage,sqlqascs.scs_stage,,SCS Application,,NULL,,,,Yes
+sqlqascs,Primary,scs_warehouse_gsfs,sqlqascs.scs_warehouse_gsfs,,SCS Application,,NULL,,,,Yes
+sqlqascs,Primary,scs_warehouse_master,sqlqascs.scs_warehouse_master,,SCS Application,,NULL,,,,Yes
+sqlqascs,Primary,SSISDB,sqlqascs.SSISDB,,SSIS Packages,,NULL,,,,Yes
+sqlqascs,Primary,tempdb,sqlqascs.tempdb,Yes,,,NULL,,,,Yes
+GSFS-FC-SQL-P04,Primary,DBA_Repository,GSFS-FC-SQL-P04.DBA_Repository,,DBA purpose,,,,,,
+GSFS-FC-SQL-P04,Primary,GSFS_Archive,GSFS-FC-SQL-P04.GSFS_Archive,,Archive database for SCS,,,,,,
+GSFS-FC-SQL-P04,Primary,GSFS_DW,GSFS-FC-SQL-P04.GSFS_DW,,Data Warehouse (Sisense),,,,,,
+GSFS-FC-SQL-P04,Primary,GSFS_DW_RT,GSFS-FC-SQL-P04.GSFS_DW_RT,,0,,,,,,
+GSFS-FC-SQL-P04,Primary,GSFS_DW_Stage,GSFS-FC-SQL-P04.GSFS_DW_Stage,,0,,,,,,
+GSFS-FC-SQL-P04,Primary,GSFS_Stage,GSFS-FC-SQL-P04.GSFS_Stage,,0,,,,,,
+GSFS-FC-SQL-P04,Primary,ReportServer,GSFS-FC-SQL-P04.ReportServer,,PowerBI Reports,,,,,,
+GSFS-FC-SQL-P04,Primary,ReportServerTempDB,GSFS-FC-SQL-P04.ReportServerTempDB,,0,,,,,,
+GSFS-FC-SQL-P04,Primary,scs_auto_qa,GSFS-FC-SQL-P04.scs_auto_qa,,Month End,,,,,,
+GSFS-FC-SQL-P04,Primary,scs_auto_qa_prior_month,GSFS-FC-SQL-P04.scs_auto_qa_prior_month,,Month End,,,,,,
+GSFS-FC-SQL-P04,Primary,SSA,GSFS-FC-SQL-P04.SSA,,DBA purpose,,,,,,
+GSFS-FC-SQL-P04,Primary,SSISDB,GSFS-FC-SQL-P04.SSISDB,,SSIS Packages,,,,,,
+GSFS-AU-SQL-P04,Secondary,DBA_Repository,GSFS-AU-SQL-P04.DBA_Repository,,DBA purpose,,,,,,
+GSFS-AU-SQL-P04,Secondary,GSFS_Archive,GSFS-AU-SQL-P04.GSFS_Archive,,Archive database for SCS,,,,,,
+GSFS-AU-SQL-P04,Secondary,GSFS_DW,GSFS-AU-SQL-P04.GSFS_DW,,Data Warehouse (Sisense),,,,,,
+GSFS-AU-SQL-P04,Secondary,GSFS_DW_RT,GSFS-AU-SQL-P04.GSFS_DW_RT,,0,,,,,,
+GSFS-AU-SQL-P04,Secondary,GSFS_DW_Stage,GSFS-AU-SQL-P04.GSFS_DW_Stage,,0,,,,,,
+GSFS-AU-SQL-P04,Secondary,GSFS_Stage,GSFS-AU-SQL-P04.GSFS_Stage,,0,,,,,,
+GSFS-AU-SQL-P04,Secondary,ReportServer,GSFS-AU-SQL-P04.ReportServer,,PowerBI Reports,,,,,,
+GSFS-AU-SQL-P04,Secondary,ReportServerTempDB,GSFS-AU-SQL-P04.ReportServerTempDB,,0,,,,,,
+GSFS-AU-SQL-P04,Secondary,scs_auto_qa,GSFS-AU-SQL-P04.scs_auto_qa,,Month End,,,,,,
+GSFS-AU-SQL-P04,Secondary,scs_auto_qa_prior_month,GSFS-AU-SQL-P04.scs_auto_qa_prior_month,,Month End,,,,,,
+GSFS-AU-SQL-P04,Secondary,SSA,GSFS-AU-SQL-P04.SSA,,DBA purpose,,,,,,
+GSFS-AU-SQL-P04,Secondary,SSISDB,GSFS-AU-SQL-P04.SSISDB,,SSIS Packages,,,,,,
